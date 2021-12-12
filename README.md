@@ -14,7 +14,7 @@
         getline(cin, name);
         cout << "Enter a number: ";
         cin >> input;
-        if (input >= 0) {
+        if (input <= 0) {
             cout << "Invalid input";
         }
         else
